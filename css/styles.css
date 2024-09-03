@@ -1,0 +1,95 @@
+/* styles.css */
+
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo de los encabezados */
+h1, h2, h3 {
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+/* Estilo de los párrafos */
+p {
+    margin: 10px 0;
+    line-height: 1.8;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo del encabezado de la página */
+header {
+    background: #eb9d3d;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1, header h2, header h3 {
+    margin: 0;
+}
+
+/* styles.css */
+
+/* Centrar texto en los párrafos */
+
+p {
+    text-align: justify;
+}
+
+/* Estilo del pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
